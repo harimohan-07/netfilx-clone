@@ -1,0 +1,181 @@
+body{
+    background: #000;
+
+}
+
+    
+
+
+
+
+
+
+
+.logo {
+color: antiquewhite;
+justify-content: space-between;
+display: flex;
+
+}
+
+.logo img{
+height: 100px;
+width: 170px;
+
+}
+
+
+
+
+
+.explore{
+text-align: center;
+color: aliceblue;
+ font-family: "Bona Nova SC", serif;
+
+}
+
+.placeholder{
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: smaller;
+gap: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.placeholder button{
+background-color:  #DA1E1E;
+width: 170px;
+height:50px;
+font-size: 20px;
+text-align: center;
+align-items: center;
+font-family: "Bona Nova SC", serif;
+
+
+}
+
+
+
+.placeholder input{
+display: flex;
+padding:10px 80px;
+margin:0px;
+justify-content: center;
+border-radius:5px;
+color:white;
+font-size: larger;
+
+}
+
+
+.foot{
+    background-color:black;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    display:flex;
+    padding: 20px;
+
+}
+
+.footer1{
+background-color: gray;
+text-align: left;
+margin-right: 20px;
+gap: 30px;
+
+padding: 20px;
+border-radius:5px;
+}
+
+
+@media (min-width: 320px) {
+}
+    
+
+@media (max-width: 480px) {
+    
+
+
+
+
+
+.logo {
+    color: antiquewhite;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    
+    }
+    
+    .logo img{
+    height: 100px;
+    width: 170px;
+    }
+    
+    
+    
+    
+    
+    .explore{
+    text-align: center;
+    color: aliceblue;
+    }
+    
+    .placeholder{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    }
+    .placeholder button{
+    background-color:  #DA1E1E;
+    width: 50px;
+    height:50px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+  }
+    
+    
+    
+    .placeholder input{
+    display: flex;
+    padding:10px 80px;
+    margin:0px;
+    width: 300px;
+    justify-content: center;
+    border-radius:5px;
+    color: black;
+    font-size: larger;
+    }
+
+
+    .foot{
+
+    background-color: #000;
+        color: black;
+        text-align: left;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 50px;
+    
+    }
+    
+    .footer1{
+    background-color: gray;
+    text-align: left;
+    margin-right : 20px;
+    gap: 30px;
+    
+    padding: 20px;
+    border-radius:5px;
+    }
+}
