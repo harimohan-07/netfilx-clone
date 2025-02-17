@@ -43,6 +43,7 @@ font-size: smaller;
 gap: 20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+
 }
 
 
@@ -71,53 +72,76 @@ font-size: larger;
 
 }
 
-
-.foot{
-    background-color:black;
-    color: black;
-    text-align: left;
-    margin-left: 20px;
-    display:flex;
-    padding: 20px;
+h2{
+    color: whitesmoke;
+    font-family: "Bona Nova SC", serif;
 
 }
 
-.footer1{
-background-color: gray;
-text-align: left;
-margin-right: 20px;
-gap: 30px;
+.gridbox {
+    gap: 20px;
+    padding :200px,150px;
+    display:flex;
+    justify-content: space-around;
+}
 
-padding: 20px;
+.gridbox1{
+    display: flex;
+background-color: gray;
+width :fit-content;
+font-family: "Bona Nova SC", serif;
 border-radius:5px;
 }
 
 
-@media (min-width: 320px) {
+
+    
+
+@media (min-width:375px) {
+
+    body{
+        background: #000;
+    
+
+    }
+    .gridbox{
+        flex-wrap: wrap;
+    }
+    .gridbox1{
+        background-color: gray;
+        text-align: left;
+        gap: 30px;
+         padding: 20px;
+        border-radius:5px;
+        }
 }
+
+
+
+@media (max-width:790px){
+
+    body{
+        background: #000;
     
-
-@media (max-width: 480px) {
+    }
     
+}
 
-
-
-
-
-.logo {
+    .logo {
     color: antiquewhite;
     justify-content: space-between;
     display: flex;
-    
-    
-    
-    }
+     }
     
     .logo img{
     height: 100px;
     width: 170px;
     }
     
+    .sign{
+        margin-right: 30px;
+    }
+
     
     
     
@@ -125,57 +149,55 @@ border-radius:5px;
     .explore{
     text-align: center;
     color: aliceblue;
-    }
-    
-    .placeholder{
-    display: flex;
-    width: 300px;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-    }
-    .placeholder button{
-    background-color:  #DA1E1E;
-    width: 50px;
-    height:50px;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-  }
-    
-    
-    
-    .placeholder input{
-    display: flex;
-    padding:10px 80px;
-    margin:0px;
-    width: 300px;
-    justify-content: center;
-    border-radius:5px;
-    color: black;
-    font-size: larger;
+    margin-right: 40px;
     }
 
-
-    .foot{
-
-    background-color: #000;
-        color: black;
-        text-align: left;
-        margin-left: 20px;
-        flex-wrap: wrap;
-        padding: 20px;
-        gap: 50px;
-    
+    h2{
+        margin-right: 50px;
     }
+
+   
     
-    .footer1{
+   .gridbox1{
     background-color: gray;
-    text-align: left;
-    margin-right : 20px;
+    gap: 5px;
     gap: 30px;
-    
-    padding: 20px;
-    border-radius:5px;
+     border-radius:5px;
     }
-}
+
+    .gridbox{
+/*         
+        gap: 30px;
+        display: grid; */
+    }
+    
+
+    .placeholde a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .placeholde{
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+    }
+    .placeholde input {
+        width: 400px;
+        height: 30px;
+    }
+    .placeholde button{
+        background-color: #DA1E1E;
+        color: black;
+        height: 40px;
+    }
+  
+
+
+
+
+
+
+
+
+
